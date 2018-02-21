@@ -3,6 +3,12 @@ export MY_DISTRO_PREFIX=/usr
 export MY_DISTRO_LIBDIR=/usr/lib64
 
 #DEPENDENCIES
+sudo yum install gcc make automake bison ncurses-devel -y
+sudo yum install gcc make automake bison ncurses-devel xorg-server-devel -y
+sudo yum install rpm-build redhat-rpm-config asciidoc hmaccalc perl-ExtUtils-Embed pesign xmlto -y
+sudo yum install audit-libs-devel binutils-devel elfutils-devel elfutils-libelf-devel -y
+sudo yum install ncurses-devel newt-devel numactl-devel pciutils-devel python-devel zlib-devel 
+
 sudo yum install kmod-devel -y
 sudo yum install -y procps-ng-devel
 sudo yum install -y libunwind-devel
