@@ -7,7 +7,7 @@ sudo yum install gcc make automake bison ncurses-devel -y
 sudo yum install gcc make automake bison ncurses-devel xorg-server-devel -y
 sudo yum install rpm-build redhat-rpm-config asciidoc hmaccalc perl-ExtUtils-Embed pesign xmlto -y
 sudo yum install audit-libs-devel binutils-devel elfutils-devel elfutils-libelf-devel -y
-sudo yum install ncurses-devel newt-devel numactl-devel pciutils-devel python-devel zlib-devel 
+sudo yum install ncurses-devel newt-devel numactl-devel pciutils-devel python-devel zlib-devel
 
 sudo yum install kmod-devel -y
 sudo yum install -y procps-ng-devel
@@ -110,7 +110,7 @@ cd ..
 
 git clone https://anongit.freedesktop.org/git/cairo/
 cd cairo
-./autogen.sh --prefix=$MY_DISTRO_PREFIX --disable-valgrind
+./autogen.sh --prefix=$MY_DISTRO_PREFIX
 
 make
 
