@@ -134,6 +134,6 @@ sudo make install
 #File Tweaks
 sudo rm -f /etc/X11/xorg.conf.d/20-modesetting.conf
 sudo cp 20-modesetting.conf /etc/X11/xorg.conf.d/20-modesetting.conf
-sudo cp i915.conf /etc/modprobe.d/
+sudo cp i915.conf /etc/modprobe.d/i915.conf
 
 echo "Lets Go to init 2 now if all is good!! and run sudo ./setupX.sh"
